@@ -12,7 +12,7 @@ Note that in this implementation we set alpha = beta, and J = K, in order to nar
 The random seeds used for Monte-Carlo simulations were 42, 26, and 91. 
 
 ## Function Dependence
-
+<pre><code>
 run_noodl_tens.m (the wrapper function)<br>
 |-----tens_compare_NOODL.m (compare the results with other techniques) <br> 
 |      |------best_fista_result.m (recovers the estimates of the sparse matrix X) <br>
@@ -20,7 +20,8 @@ run_noodl_tens.m (the wrapper function)<br>
 |              |------FISTA_with_init_stochastic.m (stochastic version of ISTA) <br>
 |-----softThr.m (the soft thresholding function for FISTA and ISTA) <br>
 |-----KRP.m (evaluates the Khatri-Rao Product) <br>
-|-----nrmc.m (normalizes the columns of a matrix)        <br>       
+|-----nrmc.m (normalizes the columns of a matrix)        <br>     
+</pre></code>
 
 Note: if only evaluating TensorNOODL's performance, the code corresponding to other techniques can be commented out in the tens_compare_NOODL.m  file. 
 
@@ -29,9 +30,11 @@ Note: if only evaluating TensorNOODL's performance, the code corresponding to ot
 
 Step Size (dictionary Update): We used the following Step sizes for dictionary update (eta in code eta_A in paper), depending upon the rank m.
 
-m = 50 eta = 20 (except for alpha = 0.005 where eta = 5)
-m = 150, eta = 40
-m = 300, eta = 40
-m = 450, eta = 50
-m = 600, eta = 50
+| Size of Dictionary | Step Size | Notes |
+| ------| ------- | ------ |
+|m = 50 |eta = 20 |(except for alpha = 0.005 where eta = 5)|
+|m = 150 | eta = 40 | |
+| m = 300 | eta = 40| |
+| m = 450 | eta = 50 | |
+| m = 600 | eta = 50 | |
 
