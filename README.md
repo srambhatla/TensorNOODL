@@ -13,14 +13,14 @@ The random seeds used for Monte-Carlo simulations were 42, 26, and 91.
 
 ## Function Dependence
 
-run_noodl_tens.m (the wrapper function)
-|-----tens_compare_NOODL.m (compare the results with other techniques)
-|      |------best_fista_result.m (recovers the estimates of the sparse matrix X)
-|              |------FISTA_with_init.m (implementation of FISTA)
-|              |------FISTA_with_init_stochastic.m (stochastic version of ISTA)
-|-----softThr.m (the soft thresholding function for FISTA and ISTA)
-|-----KRP.m (evaluates the Khatri-Rao Product)
-|-----nrmc.m (normalizes the columns of a matrix)               
+run_noodl_tens.m (the wrapper function)<br>
+|-----tens_compare_NOODL.m (compare the results with other techniques) <br> 
+|      |------best_fista_result.m (recovers the estimates of the sparse matrix X) <br>
+|              |------FISTA_with_init.m (implementation of FISTA) <br>
+|              |------FISTA_with_init_stochastic.m (stochastic version of ISTA) <br>
+|-----softThr.m (the soft thresholding function for FISTA and ISTA) <br>
+|-----KRP.m (evaluates the Khatri-Rao Product) <br>
+|-----nrmc.m (normalizes the columns of a matrix)        <br>       
 
 Note: if only evaluating TensorNOODL's performance, the code corresponding to other techniques can be commented out in the tens_compare_NOODL.m  file. 
 
