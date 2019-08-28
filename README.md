@@ -1,4 +1,10 @@
-   |  
+ <p float="left">
+  <img src="/tensor_logo.png" width="100" />
+  <img src="/logo.png" width="100" /> 
+</p>
+ 
+ 
+ |  
 :------:|:------:
 ![TNOODL](https://github.com/srambhatla/TensorNOODL/blob/master/tensor_logo.png "TNOODL")|![NOODL](https://github.com/srambhatla/TensorNOODL/blob/master/logo.png "NOODL")
 
