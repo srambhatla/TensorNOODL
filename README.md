@@ -2,10 +2,6 @@
   <img src="/tensor_logo.png"width="300" />
   <img src="/logo.png" width="400" /> 
 </p>
- 
-
-
-# TensorNOODL
 NOODL for Structured Tensor Factorization
 
 ## How to make TensorNOODLs!
