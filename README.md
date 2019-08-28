@@ -1,3 +1,5 @@
+![TNOODL](https://github.com/srambhatla/TensorNOODL/blob/master/extras/tensor_logo.png "TNOODL")![NOODL](https://github.com/srambhatla/TensorNOODL/blob/master/extras/logo.png "NOODL")
+
 # TensorNOODL
 NOODL for Structured Tensor Factorization
 
