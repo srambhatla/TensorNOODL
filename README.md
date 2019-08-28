@@ -1,5 +1,5 @@
    |  
-::|::
+:------:|:------:
 ![TNOODL](https://github.com/srambhatla/TensorNOODL/blob/master/tensor_logo.png "TNOODL")|![NOODL](https://github.com/srambhatla/TensorNOODL/blob/master/logo.png "NOODL")
 
 # TensorNOODL
