@@ -2,7 +2,7 @@
   <img src="/tensor_logo.png"width="300" />
   <img src="/logo.png" width="400" /> 
 </p>
-NOODL for Structured Tensor Factorization
+Structured Tensor Factorization via Dictionary Learning
 
 ## How to make TensorNOODLs!
 
